@@ -125,8 +125,9 @@
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
-      <video class="video-player" poster="" id="tree2" controls>
-        <source src="static\video\Video_v2_S.mp4" type="video/mp4">
+      <video class="video-player" id="tree2" controls
+             style="width: 100%; height: auto;">
+        <source src="static/video/Video_v2_S.mp4" type="video/mp4">
       </video>
     </div>
   </div>
@@ -178,13 +179,13 @@
             Overview of STAvatar. (a) In addition to a fixed identity reference image and its UV position map, 
             we further rasterize the vertex offsets between reference mesh and control mesh to obtain a UV displacement map as input. 
             (b) We construct a dual-branch network to predict a feature offset map in UV space, from which an offset 
-            <span class="math">\( \delta_i \)</span> is sampled for each Gaussian <span class="math">\( g_i \)</span>. 
-            This offset is added to the coarsely estimated parameters <span class="math">\( \tilde{\theta} \)</span> to get final parameters 
-            <span class="math">\( \theta^* \)</span>. The final images are then rendered using Gaussian Splatting. 
+            \( \delta_i \) is sampled for each Gaussian \( g_i \). 
+            This offset is added to the coarsely estimated parameters \( \tilde{\theta} \) to get final parameters 
+            \( \theta^* \). The final images are then rendered using Gaussian Splatting. 
             (c) We first construct a perceptual error map by combining 
-            <span class="math">\( \mathcal{L}_1 \)</span> map and 
-            <span class="math">\( \mathcal{L}_\mathrm{d\text{-}ssim} \)</span> map. 
-            Then, we estimate the 2D projection of each Gaussian <span class="math">\( g_i \)</span> using the recorded attributes, 
+            \( \mathcal{L}_1 \) map and 
+            \( \mathcal{L}_{\mathrm{d-ssim}} \) map. 
+            Then, we estimate the 2D projection of each Gaussian \( g_i \) using the recorded attributes, 
             based on which the fused perceptual error is computed.
           </p>
         </div>
@@ -206,7 +207,7 @@
 <!-- End Method -->
 
 <!-- MathJax -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.js" integrity="sha512-3/rXl/YdQ7tFzqB1p7F2B2R6j0GQURHzR2qS9aZXxJ2pF1+3O8i2/NQ2vJ2V9Zl2TIGvZ4W9r5bZxVvPCi7W8A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.js" integrity="sha512-3/rXl/YdQ7tFzqB1p7F2B2R6j0GQURHzR2qS9aZXxJ2pF1+3O8i2/NQ2vJ2V9Zl2TIGvZ4W9r5bZxVvPCi7W8A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
 
 
 <!-- Paper abstract -->
