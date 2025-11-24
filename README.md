@@ -11,13 +11,13 @@ Official repository for the paper
 
 <a href='https://lcfaw.github.io/STAvatar/'><img src='https://img.shields.io/badge/project page-STAvatar-Green'></a> <a href='#citation'><img src='https://img.shields.io/badge/cite-blue'></a>
 
-<img src="assets/brief.png" width = "1000" align=center />
+<img src="assets/brief.png" width = "600" align=center />
 
 ## Pipeline
 
 In this paper, we present STAvatar, a novel method for high-fidelity and training-efficient reconstruction of animated avatars from monocular videos. The proposed UV-Adaptive Soft Binding framework enables flexible and non-rigid deformation field modeling while remaining compatible with the Adaptive Density Control (ADC), thereby effectively capturing subtle expressions and fine-grained details. Besides, our Temporal ADC strategy addresses the limitations of vanilla ADC in dynamic avatar reconstruction, resulting in more accurate and complete reconstructions in frequently occluded regions. Extensive experiments demonstrate that our method significantly outperforms previous approaches in both reconstruction quality and training efficiency.
 
-![Schematic of Graphics Probe](assets/method.png)
+<img src="assets/method.png" width = "1000" align=center />
 
 ## Code
 Code will be coming soon!
