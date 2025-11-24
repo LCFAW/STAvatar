@@ -23,7 +23,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-  <title>PC-Talk</title>
+  <title>STAvatar</title>
 
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
         rel="stylesheet">
@@ -138,8 +138,8 @@
     <div class="container is-max-desktop">
       <h2 class="title is-2">Abstract</h2>
 
-      <div style="display: flex; justify-content: center; align-items: center;">
-        <img src="static\images\overview.png" alt="MY ALT TEXT" style="width: 75%; height: 75%;"/>
+      <div style="display: flex; justify-content: center; align-items: center; margin-bottom: 1.2em;">
+        <img src="static\images\overview.png" alt="MY ALT TEXT" style="width: 75%; height: auto;"/>
       </div>
 
       <div class="content has-text-justified">
@@ -168,7 +168,7 @@
     <div class="container is-max-desktop">
       <h2 class="title is-2">Method</h2>
 
-      <div style="display: flex; justify-content: center; align-items: center;">
+      <div style="display: flex; justify-content: center; align-items: center; margin-bottom: 1.2em;">
         <img src="static/images/method.png" alt="MY ALT TEXT" style="width: 100%; height: 100%;"/>
       </div>
 
@@ -190,11 +190,11 @@
         </div>
       </div>
       
-      <div style="display: flex; justify-content: center; align-items: center; margin-top: 2em; margin-bottom: 1em;">
+      <div style="display: flex; justify-content: center; align-items: center; margin-top: 2em; margin-bottom: 1.2em;">
         <img src="static\images\ftc.png" alt="Additional Method Diagram" style="width: 75%; height: auto;"/>
       </div>
 
-      <div class="content has-text-justified" style="font-size: 1em; margin-bottom: 2em;">
+      <div class="content has-text-justified" style="font-size: 1em;">
         <p>
           FLAME-Conditioned Temporal Clustering. We cluster video frames into K clusters and conduct ADC within each cluster's training.
         </p>
@@ -215,7 +215,7 @@
     <div class="container is-max-desktop">
       <h2 class="title is-2">Qualitative Results</h2>
 
-      <div style="display: flex; justify-content: center; align-items: center;">
+      <div style="display: flex; justify-content: center; align-items: center; margin-bottom: 1.2em;">
         <img src="static\images\recon.png" alt="MY ALT TEXT" style="width: 100%; height: auto;"/>
       </div>
 
@@ -226,7 +226,7 @@
         </p>
       </div>
 
-      <div style="display: flex; justify-content: center; align-items: center;">
+      <div style="display: flex; justify-content: center; align-items: center; margin-bottom: 1.2em;">
         <img src="static\images\cross.png" alt="MY ALT TEXT" style="width: 100%; height: auto;"/>
       </div>
 
@@ -245,9 +245,20 @@
   <div class="hero-body">
     <div class="container is-max-desktop">
       <h2 class="title is-2">Quantitative Results</h2>
-      <div style="display: flex; justify-content: center; align-items: center;">
+
+      <div style="display: flex; justify-content: center; align-items: center; margin-bottom: 1.2em;">
         <img src="static\images\table1.png" alt="MY ALT TEXT" style="width: 100%; height: 100%;"/>
       </div>
+
+      <div class="content has-text-justified">
+        <p style="font-size: 1.0em;">
+          We select PSNR, SSIM, and LPIPS \cite{zhang2018unreasonable} as evaluation metrics to comprehensively assess the visual quality of the reconstructed avatars. 
+          As shown in Tab.~\ref{tab:recon}, our method consistently outperforms existing state-of-the-art approaches across most datasets and metrics, 
+          achieving notable improvements in reconstruction quality. In particular, our method attains the highest SSIM scores and the lowest LPIPS values on all four datasets, 
+          demonstrating its strong ability to preserve both geometric accuracy and perceptual fidelity.
+        </p>
+      </div>
+
     </div>
 </section>
 
