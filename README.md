@@ -3,13 +3,13 @@ Official repository for the paper
 
 **STAvatar: Soft Binding and Temporal Density Control for Monocular 3D Head Avatars Reconstruction**
 
-<a href="https://lcfaw.github.io/" target="_blank">Jiankuo Zhao</a><sup>1,2</sup>, <a href="https://xiangyuzhu-open.github.io/homepage/" target="_blank">Xiangyu Zhu</a><sup>1,2</sup>, <a href="https://lcfaw.github.io/" target="_blank">Zidu Wang</a><sup>1,2</sup>, <a href="http://www.cbsr.ia.ac.cn/users/zlei/" target="_blank">Zhen Lei</a><sup>1,2,3</sup>
+Jiankuo Zhao</a><sup>1,2</sup>, <a href="https://xiangyuzhu-open.github.io/homepage/" target="_blank">Xiangyu Zhu</a><sup>1,2</sup>, Zidu Wang</a><sup>1,2</sup>, <a href="http://www.cbsr.ia.ac.cn/users/zlei/" target="_blank">Zhen Lei</a><sup>1,2,3</sup>
 
 <sup>1</sup>Institute of Automation, Chinese Academy of Sciences, <sup>2</sup>School of Artificial Intelligence, University of Chinese Academy of Sciences, <sup>3</sup>Centre for Artificial Intelligence and Robotics, Hong Kong Institute of Science \& Innovation,Chinese Academy of Sciences
 
-<!-- <a href='https://arxiv.org/abs/2411.16148'><img src='https://img.shields.io/badge/arXiv-2301.02379-red'></a> <a href='https://lcfaw.github.io/STAvatar/'><img src='https://img.shields.io/badge/project page-STAvatar-Green'></a> <a href='#citation'><img src='https://img.shields.io/badge/cite-blue'></a> -->
+<a href='https://arxiv.org/abs/2511.56686'><img src='https://img.shields.io/badge/arXiv-2511.56686-red'></a> <a href='https://lcfaw.github.io/STAvatar/'><img src='https://img.shields.io/badge/project page-STAvatar-Green'></a> 
 
-<a href='https://lcfaw.github.io/STAvatar/'><img src='https://img.shields.io/badge/project page-STAvatar-Green'></a> <a href='#citation'><img src='https://img.shields.io/badge/cite-blue'></a>
+<!-- <a href='#citation'><img src='https://img.shields.io/badge/cite-blue'></a> -->
 
 <img src="assets/brief.png" width = "600" align=center />
 
@@ -23,3 +23,11 @@ In this paper, we present STAvatar, a novel method for high-fidelity and trainin
 Code will be coming soon!
 
 ## Cite
+```
+@article{zhao2025stavatar,
+  title={STAvatar: Soft Binding and Temporal Density Control for Monocular 3D Head Avatars Reconstruction},
+  author={Zhao, Jiankuo and Zhu, Xiangyu and Wang, Zidu and Lei, Zhen},
+  journal={arXiv preprint arXiv:2511.56686},
+  year={2025}
+}
+```
