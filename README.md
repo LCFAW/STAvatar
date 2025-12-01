@@ -7,7 +7,7 @@ Jiankuo Zhao</a><sup>1,2</sup>, <a href="https://xiangyuzhu-open.github.io/homep
 
 <sup>1</sup>Institute of Automation, Chinese Academy of Sciences, <sup>2</sup>School of Artificial Intelligence, University of Chinese Academy of Sciences, <sup>3</sup>Centre for Artificial Intelligence and Robotics, Hong Kong Institute of Science \& Innovation,Chinese Academy of Sciences
 
-<a href='https://arxiv.org/abs/2511.19854'><img src='https://img.shields.io/badge/arXiv-2511.56686-red'></a> <a href='https://lcfaw.github.io/STAvatar/'><img src='https://img.shields.io/badge/project page-STAvatar-Green'></a> 
+<a href='https://arxiv.org/abs/2511.19854'><img src='https://img.shields.io/badge/arXiv-2511.19854-red'></a> <a href='https://lcfaw.github.io/STAvatar/'><img src='https://img.shields.io/badge/project page-STAvatar-Green'></a> 
 
 <!-- <a href='#citation'><img src='https://img.shields.io/badge/cite-blue'></a> -->
 
