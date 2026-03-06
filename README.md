@@ -55,7 +55,7 @@ Our framework and pre-processed data are built upon FLAME 2023. Please download 
 - FLAME Vertex Masks -> `flame_model/assets/flame/FLAME_masks.pkl`
 
 ### Models and Datasets
-To facilitate a quick start, we provide pre-trained models and processed data for the following three identities:
+To facilitate a quick start, we provide trained models and processed data for the following three identities:
 - **Marcel**: From the [IMAvatar dataset](https://github.com/zhengyuf/IMavatar).
 - **Nf_01**: From the [Nerface dataset](https://github.com/gafniguy/4D-Facial-Avatars).
 - **Obama**: From the [INSTA dataset](https://github.com/Zielon/INSTA).
@@ -86,7 +86,8 @@ python train.py -s /path/to/input/dataset -m /path/to/save/models
 
 * **Rendering**: Generate high-quality animations using a trained model:
 ```bash
-# Note on Path Configuration: If you are using our provided pre-trained models, please ensure that the path information in cfg_args is updated accordingly to maintain correct directory mapping.
+# Note on Path Configuration: If you are using our provided trained models, 
+# please ensure that the path information in cfg_args is updated accordingly.
 python render.py --skip_val --skip_train -m /path/to/save/models
 ```  
 
