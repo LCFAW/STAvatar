@@ -16,10 +16,6 @@ In this paper, we present STAvatar, a novel method for high-fidelity and trainin
 
 <img src="assets/method.png" width = "1000" align=center />
 
-## TODO LIST
-- ~~Release the training code and inference code~~ ✅
-- Release some identities' data for quick start
-
 ## 🛠️ Setup
 ### Installation
 Follow the commands below to set up a Conda environment and install the necessary dependencies:
@@ -58,7 +54,16 @@ Our framework and pre-processed data are built upon FLAME 2023. Please download 
 - FLAME 2023 (versions w/ jaw rotation) -> `flame_model/assets/flame/flame2023.pkl`
 - FLAME Vertex Masks -> `flame_model/assets/flame/FLAME_masks.pkl`
 
-### Dataset Preprocess
+### Models and Datasets
+To facilitate a quick start, we provide pre-trained models and processed data for the following three identities:
+- **Marcel**: From the [IMAvatar dataset](https://github.com/zhengyuf/IMavatar).
+- **Nf_01**: From the [Nerface dataset](https://github.com/gafniguy/4D-Facial-Avatars).
+- **Obama**: From the [INSTA dataset](https://github.com/Zielon/INSTA).
+
+All resources are available for download via [Google Drive](https://drive.google.com/drive/folders/1gypuUi1TsWm6Gm6vdyf6S-fwlYnEkg1r?usp=sharing).
+
+
+### Process your custom dataset
 We utilize [VHAP](https://github.com/ShenhanQian/VHAP.git) for dataset pre-processing. If you wish to use your custom data, please ensure the directory structure adheres to the following format:
 ```
 <dataset_root>
@@ -81,6 +86,7 @@ python train.py -s /path/to/input/dataset -m /path/to/save/models
 
 * **Rendering**: Generate high-quality animations using a trained model:
 ```bash
+# Note on Path Configuration: If you are using our provided pre-trained models, please ensure that the path information in cfg_args is updated accordingly to maintain correct directory mapping.
 python render.py --skip_val --skip_train -m /path/to/save/models
 ```  
 
