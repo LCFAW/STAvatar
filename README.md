@@ -65,11 +65,11 @@ All resources are available for download via [Google Drive](https://drive.google
 
 
 ### Process your custom dataset
-We utilize [VHAP](https://github.com/ShenhanQian/VHAP.git) for dataset pre-processing. If you wish to use your custom data, please ensure the directory structure adheres to the following format:
+We utilize [VHAP](https://github.com/ShenhanQian/VHAP.git) for dataset pre-processing. After VHAP tracking, we further apply [face-parsing.PyTorch](https://github.com/zllrunning/face-parsing.PyTorch) to remove shoulder and clothing regions from the foreground masks. If you wish to use your custom data, please ensure the directory structure adheres to the following format:
 ```
 <dataset_root>
 ├── images/                  # Original input images
-├── fg_masks/                # Foreground masks (optional; not required by our current pipeline)
+├── fg_masks/                # Foreground masks with shoulder and clothing regions removed (not required by our current pipeline)
 ├── flame_param/             # Per-frame FLAME parameters (.npz)
 ├── canonical_flame_param.npz # Canonical FLAME configuration
 ├── transforms_train.json    # Camera extrinsics/intrinsics for training
